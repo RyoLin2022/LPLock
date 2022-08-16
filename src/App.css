@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  position: relative;
+  background-color: black;
+  z-index: 0;
   text-align: center;
 }
 
@@ -14,7 +25,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(https://i0.wp.com/abmedia.io/wp-content/uploads/2022/06/Dogecoin-Elon-Musk.jpeg?quality=90&ssl=1);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +49,108 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#LPAddr {
+  color: black;
+}
+
+#connect-btn{
+  font-family: 'Play', sans-serif;
+  color: black;
+  flex: 2;
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  background-color:wheat; 
+  border-radius:30px;
+  width: 80px;
+  height: 40px;
+  border: 2px solid;
+  border-color:black;
+  position: absolute;
+}
+
+
+#balance-btn{
+  font-family: 'Play', sans-serif;
+  color: black;
+  position: fixed;
+  top: 20px;
+  right: 160px;
+  background-color:wheat; 
+  width: 80px;
+  height: 40px;
+  border: 2px solid;
+  border-color:black;
+  position: absolute;
+}
+
+#Approve-btn{
+  font-family: 'Play', sans-serif;
+  color: black;
+  background-color:wheat; 
+  width: 80px;
+  height: 40px;
+  border: 2px solid;
+  border-color:black;
+}
+
+.hr1{
+  color: black;
+  position: fixed;
+  top: 100px;
+  right: 0px;
+  width: 2000px;
+  border: 2px solid;
+}
+
+#isConnected{
+  position: fixed;
+  top: 0px;
+  left: 30px;
+  color: red;
+  flex: 1;  
+  justify-content: center; 
+}
+
+.button{
+  justify-content: center; 
+  align-items: center; 
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.SameRow {
+  display: flex;
+}
+
+.left {
+  text-align: left;
+  margin-left: 20px;
+  flex:2;
+}
+
+.right {
+  text-align: right;
+  flex:1;
+}
+
+table {    
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  border:1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  width: 300px;
+  height: 60vh;
+  opacity: 0.9;
+}
+
+.Ryo {
+  text-decoration: none;
+  color: blue;
 }
